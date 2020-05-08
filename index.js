@@ -71,6 +71,7 @@ http.get('https://jsonplaceholder.typicode.com/posts', function(err, posts){
         console.log(err)
     } else{
         console.log(posts)
+        document.getElementById("app").innerHTML = posts
     }
 })
 
